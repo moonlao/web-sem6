@@ -1,0 +1,97 @@
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+* {
+  
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+nav {
+  /* . */
+  justify-content: flex-end;
+  display: flex;
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.menu__item {
+  position: relative;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+/* .menu__item a {
+  color: black;
+  font-size: 1.3em;
+  line-height: 33px;
+} */
+
+/* ////// */
+
+.card {
+  font-family: "open-sans", sans-serif;
+  color: black;
+  margin-top: 10px;
+}
+
+h3 {
+  color: black;
+  font-family: "open-sans", sans-serif;
+}
+
+.text {
+  font-size: 30px;
+  padding: 5px;
+  
+}
+
+.summary > p {
+  font-size: 16px;
+}
+
+.modal-dialog {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-modal {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.btn-main {
+  background-color: darkseagreen;
+  font-size: 800;
+}
